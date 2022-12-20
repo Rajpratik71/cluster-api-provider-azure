@@ -7,7 +7,6 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
-      day: "monday"      
     commit-message:
       include: "scope"
     ignore:
@@ -30,7 +29,6 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-      day: "monday"
     commit-message:
       include: "scope"
     labels:
